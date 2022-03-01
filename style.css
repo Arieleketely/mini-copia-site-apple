@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Black.ttf') format('truetype');
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+header{
+    padding: 8px 2%;
+    background-color: #333;
+    text-align: center;
+}
+nav.menu ul{
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    color:white;
+    margin:0 30px;
+    font-size: 14px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    margin:0 5px;
+}
+section.demo{
+text-align: center;
+padding:50px 0;
+color:white;
+}
+section.demo h1{
+    font-size: 40px;
+
+    }
+    section.demo h3{
+        font-size:25px;
+        margin:20px 0;
+        }
+        .links-compra a{
+            color:#06c;
+        font-size: 19px;
+        margin: 0 15px;
+        }
+        section.demo img{
+            margin-top:90px;
+            display: inline-block;
+            max-width: 900px;
+            width: 100%;
+        }
+        .menu a .search-icon{
+            margin-right: 20px;
+        }
